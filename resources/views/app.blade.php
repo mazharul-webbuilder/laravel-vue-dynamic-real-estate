@@ -4,11 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+{{--        // This will load all component and styles and js--}}
         <title>Larazillow</title>
-        @vite('resources/js/app.js') // This will load all component and styles and js
-        @inertiaHead //this directive comes with inertiaJs
+        @vite('resources/js/app.js')
+{{--        //this directive comes with inertiaJs--}}
+        @inertiaHead
     </head>
     <body>
-        @inertia // this directive comes with inertiaJs
+{{--    // this directive comes with inertiaJs--}}
+        @inertia
     </body>
 </html>
